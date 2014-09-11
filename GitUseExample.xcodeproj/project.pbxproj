@@ -14,6 +14,7 @@
 		320746A319C206500083C9FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 320746A219C206500083C9FB /* Images.xcassets */; };
 		320746A619C206540083C9FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 320746A419C206540083C9FB /* LaunchScreen.xib */; };
 		320746B219C206590083C9FB /* GitUseExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 320746B119C206590083C9FB /* GitUseExampleTests.m */; };
+		320746C219C209F50083C9FB /* MapForItenerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 320746C119C209F50083C9FB /* MapForItenerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		320746AB19C206590083C9FB /* GitUseExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitUseExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		320746B019C206590083C9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		320746B119C206590083C9FB /* GitUseExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUseExampleTests.m; sourceTree = "<group>"; };
+		320746C019C209F50083C9FB /* MapForItenerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapForItenerary.h; sourceTree = "<group>"; };
+		320746C119C209F50083C9FB /* MapForItenerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapForItenerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				320746A219C206500083C9FB /* Images.xcassets */,
 				320746A419C206540083C9FB /* LaunchScreen.xib */,
 				3207469519C2064D0083C9FB /* Supporting Files */,
+				320746C019C209F50083C9FB /* MapForItenerary.h */,
+				320746C119C209F50083C9FB /* MapForItenerary.m */,
 			);
 			path = GitUseExample;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320746C219C209F50083C9FB /* MapForItenerary.m in Sources */,
 				3207469E19C2064F0083C9FB /* ViewController.m in Sources */,
 				3207469B19C2064E0083C9FB /* AppDelegate.m in Sources */,
 				3207469819C2064E0083C9FB /* main.m in Sources */,
@@ -414,6 +420,7 @@
 				320746B719C206590083C9FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		320746B819C206590083C9FB /* Build configuration list for PBXNativeTarget "GitUseExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				320746BA19C206590083C9FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
